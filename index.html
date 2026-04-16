@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+
+<!-- link my css -->
+   <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+
+<!-- link google font css -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<!-- link font awesome css -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+ <div class="navtitlecontainer">
+   <h1 class="navtitle"><i class="fa-solid fa-film"></i> Castro J</h1>
+ </div>
+ <div class="navlinks">
+   <a href="#home"><p class="navlink">Home</p></a>
+   <a href="#aboutme"><p class="navlink">About</p></a>
+   <a href="#services"><p class="navlink">Service</p></a>
+   <a href="#portfolio"><p class="navlink">Portfolio</p></a>
+   <a href="mailto:castro212010@gmail.com"><p class="navlink">Contact</p></a>
+   <a href="#letsworktogether"><p class="navlink" id="navlast">Let's work together</p></a>
+ </div>
+ <div class="moreicon">
+   <i class="fa-solid fa-bars" onclick="showsidenavbar()"></i>
+ </div>
+</nav>
+
+<!-- Side navbar for mobile -->
+
+<div class="sidenavbar">
+<div style="text-align:right;margin-top:30px;">
+ <div class="xmark">
+  <i class="fa-solid fa-xmark" onclick="hidesidenavbar()"></i>
+ </div>
+</div>
+  <div class="sidenavlinks">
+   <a href="#home"><p class="sidenavlink">Home</p></a>
+  <a href="#aboutme"><p class="sidenavlink">About</p></a>
+   <a href="#services"><p class="sidenavlink">Service</p></a>
+   <a href="#portfolio"><p class="sidenavlink">Portfolio</p></a>
+   <a href="mailto:castro212010@gmail.com"><p class="sidenavlink">Contact</p></a>
+   <a href="#letsworktogether"><p class="sidenavlink" id="sidelast">Let's work together</p></a>
+  </div>
+</div>
+
+<!-- Home -->
+<section id="home" >
+
+ <div class="titleu">
+   <i class="fa-solid fa-circle" id="titleuo"></i>
+   <h3>Avalable for projects</h3>
+ </div>
+
+<!-- under titleu -->
+<div class="undertitleu">
+ <div class="undertitleuname">
+  <div class="undertitleunameo">Castro</div>
+  <div class="undertitleunamet">J</div>
+ </div>
+
+ <div class="undertitleusecond">
+  <hr class="undertitleusecondhr">
+  <h1 class="undertitleusecondname">
+  Video Editor</h1>
+  <hr class="undertitleusecondhr">
+ </div>
+
+ <div class="undertitleuparac">
+  <h3 class="undertitleupara">Transforming raw footage into engaging stories with seamless transitions, precise timing, and modern aesthetics - all from mobile.</h3>
+ </div>
+
+ <div class="undertitleubtns">
+  <div>
+   <button class="undertitleubtno" onclick="scrollportfolio()">
+    <i class="fa-solid fa-play"></i>
+    <h3 style="margin-left:5px;">View my work</h3>
+   </button>
+  </div>
+ <div>
+  <a href="#services" ><button class="undertitleubtnt">Get in touch</button></a>
+  </div>
+ </div>
+</div>
+</section>
+
+<!-- About me -->
+<section id="aboutme">
+ <div class="abouttitle">
+  <h3 class="abouttitleo">WHO I AM</h3>
+  <br>
+  <h1 class="abouttitlet">About me</h1>
+  <br>
+  <hr class="abouttitlehr">
+ </div>
+ <div>
+  <img src="pcimg.png" class="abouttitleimg"></img>
+ </div>
+ <div class="abouttitleparac">
+  <h3 class="abouttitlepara">I am a passionate video editor dedicated to creating professional-grade content entirely on mobile. By leveraging the full power of CapCut, I transform raw footage into engaging stories with seamless transitions, precise timing, and modern aesthetics.</h3>
+  <br>
+  <h3 class="abouttitlepara">Whether it's short-form social media content or cinematic edits, I deliver high-quality results directly from my smartphone. My mobile-first workflow ensures fast turnaround times without compromising on quality.</h3>
+ </div>
+
+ <div class="aboutdc">
+  <div class="aboutd">
+   <h2>150+</h2>
+   <h3>projects completed</h3>
+  </div>
+  <div class="aboutd">
+   <h2>80+</h2>
+   <h3>Happy clients</h3>
+  </div>
+  <div class="aboutd">
+   <h2>1+</h2>
+   <h3>Years Experience</h3>
+  </div>
+ </div>
+</section>
+
+<section id="services">
+ <div class="servicetitlec">
+  <h3>What I offer</h3>
+  <h1>Services</h1>
+  <hr>
+ </div>
+
+<div class="servicedc">
+ <div class="serviced">
+  <i class="fa-solid fa-mobile"></i>
+  <h3>Social Media Edits</h3>
+  <h4>Specialized in TikToks, Reels, and YouTube Shorts. Creating scroll-stopping content optimized for each platform.</h4>
+ </div>
+ <div class="serviced">
+  <i class="fa-solid fa-bolt"></i>
+  <h3>Advance Transitions</h3>
+  <h4>Smooth, eye-catching movement and effects that keep viewers engaged from start to finish.</h4>
+ </div>
+ <div class="serviced">
+  <i class="fa-solid fa-palette"></i>
+  <h3>Color Grading</h3>
+  <h4>Enhancing the mood and visual appeal of your footage with cinematic color treatments.</h4>
+ </div>
+ <div class="serviced">
+  <i class="fa-solid fa-t"></i>
+  <h3>Text & Typography</h3>
+  <h4>Dynamic captions and creative titles that complement your visual story.</h4>
+ </div>
+ <div class="serviced">
+  <i class="fa-solid fa-music"></i>
+  <h3>Music Syncing</h3>
+  <h4>Perfect beat-matching and sound design that elevates the viewing experience.</h4>
+ </div>
+</div>
+</section>
+
+<section id="technical">
+
+<div class="technicaltitle">
+ <h3>EXPERTICE</h3>
+ <h2>Technical skills</h2>
+ <hr>
+</div>
+
+<div class="technicalskillsc" >
+ <div class="technicalskills">
+
+  <div class="technicalskill">
+    <div class="skillheader">
+      <span class="skilltitle">Capcut (Mobile)</span>
+      <span class="skillp">95%</span>
+    </div>
+    <div class="skillsubtitle">PRIMARY TOOL</div>
+    <div class="skillbar">
+      <div class="skillbarfill" style="width: 95%;"></div>
+    </div>
+  </div>
+  <div class="technicalskill">
+    <div class="skillheader">
+      <span class="skilltitle">Keyframe Animation</span>
+      <span class="skillp">90%</span>
+    </div>
+    <div class="skillsubtitle">TECHNIQUE</div>
+    <div class="skillbar">
+      <div class="skillbarfill" style="width: 90%;"></div>
+    </div>
+  </div>
+
+  <div class="technicalskill">
+    <div class="skillheader">
+      <span class="skilltitle">Masking</span>
+      <span class="skillp">85%</span>
+    </div>
+    <div class="skillsubtitle">TECHNIQUE</div>
+    <div class="skillbar">
+      <div class="skillbarfill" style="width: 85%;"></div>
+    </div>
+  </div>
+  <div class="technicalskill">
+    <div class="skillheader">
+      <span class="skilltitle">Overlays</span>
+      <span class="skillp">88%</span>
+    </div>
+    <div class="skillsubtitle">TECHNIQUE</div>
+    <div class="skillbar">
+      <div class="skillbarfill" style="width: 88%;"></div>
+    </div>
+  </div>
+
+  <div class="technicalskill">
+    <div class="skillheader">
+      <span class="skilltitle">Green screen (Chroma Key)</span>
+      <span class="skillp">82%</span>
+    </div>
+    <div class="skillsubtitle">TECHNIQUE</div>
+    <div class="skillbar">
+      <div class="skillbarfill" style="width: 82%;"></div>
+    </div>
+  </div>
+  <div class="technicalskill">
+    <div class="skillheader">
+      <span class="skilltitle">Color Grading</span>
+      <span class="skillp">92%</span>
+    </div>
+    <div class="skillsubtitle">TECHNIQUE</div>
+    <div class="skillbar">
+      <div class="skillbarfill" style="width: 92%;"></div>
+    </div>
+  </div>
+
+  <div class="technicalskill">
+    <div class="skillheader">
+      <span class="skilltitle">Audio Sync & Design</span>
+      <span class="skillp">87%</span>
+    </div>
+    <div class="skillsubtitle">TECHNIQUE</div>
+    <div class="skillbar">
+      <div class="skillbarfill" style="width: 87%;"></div>
+    </div>
+  </div>
+  <div class="technicalskill">
+    <div class="skillheader">
+      <span class="skilltitle">Motion Graphics</span>
+      <span class="skillp">80%</span>
+    </div>
+    <div class="skillsubtitle">TECHNIQUE</div>
+    <div class="skillbar">
+      <div class="skillbarfill" style="width: 80%;"></div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+
+ <div class="technicaldown">
+  <div class="technicaldowno">
+   <i>M</i>
+  </div>
+  <div class="technicaldownt">
+   <h4>mobile-First workflow</h4>
+   <h5>Fast turnaround without compromising quality</h5>
+  </div>
+ </div>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio">
+<div class="portfoliotitle" >
+ <h3>Selected Work</h3>
+ <h2>Portfolio</h2>
+ <hr>
+</div>
+
+<div class="portfoliovc">
+ <div class="portfoliov">
+  <video src="v1.mp4"></video>
+ </div>
+<hr>
+ <div class="portfoliov">
+  <video src="v2.mp4"></video>
+ </div>
+<hr>
+ <div class="portfoliov">
+  <video src="v3.mp4"></video>
+ </div>
+<hr>
+</div>
+<br>
+</section>
+
+<section id="letsworktogether">
+<div class="together">
+ <h3>Start A Project</h3>
+ <h2>Let's Work Together</h2>
+ <hr>
+</div>
+<div class="togetherp">
+ <h3>I'm ready to bring your vision to life with the convenience and speed of mobile editing. Let's create something incredible together.</h3>
+</div>
+<div class="togetherins">
+ <div class="togetherin">
+  <div class="togetherinicon">
+   <i class="fa-regular fa-user"></i>
+  </div>
+  <div class="togetherinin">
+   <h3>Castro J</h3>
+   <h4>Video Editor</h4>
+  </div>
+ </div>
+ <div class="togetherin">
+  <div class="togetherinicon">
+   <i class="fa-regular fa-envelope"></i>
+  </div>
+  <div class="togetherinin">
+   <h3>E-mail</h3>
+   <h4>castro212010@gmail.com</h4>
+  </div>
+ </div>
+</div>
+<div class="hirebtnc">
+<a href="mailto:castro212010@gmail.com" class="hirebtn">Hire me</a>
+</div>
+</section>
+<hr class="upfooterhr">
+
+<!-- footer -->
+<footer>
+ <div class="footerc">
+  <div class="footername">
+   <i class="fa-solid fa-film"></i>
+   <h1>Castro</h1>
+   <h1 class="footernamej">J</h1>
+  </div>
+  <div class="footernamep">
+   <h4>Specializing in High-Impact Mobile Editing & CapCut</h4>
+  </div>
+ </div>
+ <div class="footerc">
+  <div class="footernav">
+   <h2>NAVIGATION</h2>
+  </div>
+  <div class="footernavd">
+   <h4>HOME</h4>
+   <h4>ABOUT</h4>
+   <h4>SERVICE</h4>
+   <h4>PORTFOLIO</h4>
+   <h4>CONTACT</h4>
+  </div>
+ </div>
+ <div class="footerc">
+  <div class="footerlast">
+   <h2>GET IN TOUCH</h2>
+  </div>
+  <div class="footerlastdc">
+   <div class="footerlastd">
+    <i class="fa-solid fa-envelope"></i>
+    <h4>castro212010@gmail.com</h4>
+   </div>
+  </div>
+ </div>
+</footer>
+ <div class="footerpara">
+  <h5>©2026 Castro J. All rights reserved.</h5>
+  <h5>Created with a focus on mobile creativity.</h5>
+ </div>
+   <script src="script.js"></script>
+</body>
+
+</html>
